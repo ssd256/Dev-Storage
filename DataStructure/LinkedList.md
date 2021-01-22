@@ -2,9 +2,9 @@
 
 ![LinkedList 구조2](https://github.com/ssd256/TIL/blob/main/DataStructure/images/LinkedList%20%EA%B5%AC%EC%A1%B02.png)
 
-불연속적으로 존재하는 데이터를 서로 연결(link)한 선형 데이터 구조(포인터를 사용해서 연결됨)
+불연속적으로 존재하는 데이터를 서로 연결(link)한 [선형 데이터 구조](https://github.com/ssd256/TIL/blob/main/%EA%B8%B0%EC%B4%88%EB%8B%A8%EC%96%B4/%EC%84%A0%ED%98%95_%EB%B9%84%EC%84%A0%ED%98%95.md)(포인터를 사용해서 연결됨)
 
-각 노드는 **데이터(자신) + 다음 노드에 대한 참조(주소값)**을 포함하는 노드로 구성
+각 노드는 **데이터(자신) + 다음 노드에 대한 참조(주소값)을** 포함하는 노드로 구성
 
 ![node](https://github.com/ssd256/TIL/blob/main/DataStructure/images/node.png)
 
