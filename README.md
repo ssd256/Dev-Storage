@@ -20,7 +20,7 @@
 * 정규식
 * Generic
 * final
-<br>
+
 ## :pushpin: 자료구조   
 * Array
 * LinkedList
@@ -31,7 +31,7 @@
 * 해시(Hash)
 * 트라이(Trie)
 * B-Tree & B+Tree
-<br>
+
 ## :pushpin: 네트워크   
 * OSI 7 계층
 * TCP 3 way handshake & 4 way handshake
@@ -41,7 +41,7 @@
 * HTTP & HTTPS
 * 로드 밸런싱(Load Balancing)
 * Blocking & Non-Blocking I/O
-<br>
+
 ## :pushpin: 운영체제   
 * 운영체제란?
 * 프로세스 vs 스레드
@@ -58,7 +58,7 @@
 * 페이지 교체 알고리즘
 * 메모리(Memory)
 * 파일 시스템
-<br>
+
 ## :pushpin: 데이터베이스   
 * 키(Key) 정리
 * SQL - JOIN
@@ -69,7 +69,7 @@
 * 트랜잭션(Transaction)
 * 트랜잭션 격리 수준(Transaction Isolation Level)
 * 레디스(Redis)
-<br>
+
 ## :pushpin: Design Pattern   
 * 디자인패턴 개요(Overview)
 * 어댑터 패턴
@@ -78,7 +78,7 @@
 * 팩토리 메소드 패턴
 * 옵저버 패턴
 * 스트레티지 패턴
-<br>
+
 ## :pushpin: Algorithm   
 * 거품 정렬(Bubble Sort)
 * 선택 정렬(Selection Sort)
@@ -95,7 +95,7 @@
 * 최소 공통 조상(LCA)
 * 동적 계획법(Dynamic Programming)
 * 비트마스크(BitMask)
-<br>
+
 ## :pushpin: Language   
 * Java
   * Java 컴파일 과정
@@ -122,7 +122,7 @@
   * this
   * Promise
   * ECMAScript6
-<br>
+
 ## :pushpin: Web   
 * HTTP Method
 * RESTFul API 란?
@@ -151,4 +151,4 @@
 * Vue.js vs React.js
 * 네이티브 앱 & 웹 앱 & 하이브리드 앱
 * PWA(Progressive Web App)
-<br>
+
