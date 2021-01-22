@@ -1,6 +1,6 @@
 ### Linked List
 
-![LinkedList 구조2](C:\Study(개념_과제)\0_개인공부\자료구조\Linked List\LinkedList 구조2.png)
+![LinkedList 구조2](https://github.com/ssd256/TIL/blob/main/DataStructure/images/LinkedList%20%EA%B5%AC%EC%A1%B02.png)
 
 불연속적으로 존재하는 데이터를 서로 연결(link)한 선형 데이터 구조(포인터를 사용해서 연결됨)
 
