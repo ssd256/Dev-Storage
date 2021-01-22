@@ -31,7 +31,7 @@ class Node {
    
    
 Linked List 삽입/삭제 과정
-
+<br>
 * 삽입
 
 ![Linked List 삽입](https://github.com/ssd256/TIL/blob/main/DataStructure/images/Linked%20List%20%EC%82%BD%EC%9E%85.png) 
@@ -42,9 +42,9 @@ node[8]이 2번째 node가 되어 node[Head]의 주소를 참조한다.
 ```   
    
    
-   
+<br>   
 * 삭제
-
+<br>
 ![Linked List 삭제](https://github.com/ssd256/TIL/blob/main/DataStructure/images/Linked%20List%20%EC%82%AD%EC%A0%9C.png)
 
 ```
