@@ -14,10 +14,9 @@ class Node {
 	Object obj; // 데이터를 저장
 }
 ```
+<br>
 
-
-
-장점
+장점   
 
 > 동적 크기 : 한 번 크기가 정해지면 수정되지 않는 배열과 달리 동적으로 크기가 줄고 늘어남
 >
@@ -28,8 +27,8 @@ class Node {
 > 접근시간이 길다 :  데이터가 많을수록 읽어오는 시간이 길다.  불연속적으로 데이터가 위치해서
 >
 > 중간값이나 특정값의 경우 처음부터 읽어오기 때문   
-
-
+   
+   
    
 Linked List 삽입/삭제 과정
 
@@ -41,9 +40,9 @@ Linked List 삽입/삭제 과정
 node[3]은 node[Head]의 주소를 참조하지 않고 node[8]의 주소를 참조한다. 
 node[8]이 2번째 node가 되어 node[Head]의 주소를 참조한다.
 ```   
-
-
-
+   
+   
+   
 * 삭제
 
 ![Linked List 삭제](https://github.com/ssd256/TIL/blob/main/DataStructure/images/Linked%20List%20%EC%82%AD%EC%A0%9C.png)
