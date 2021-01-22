@@ -1,8 +1,8 @@
 # TIL : 하루하루 공부한 것과 이해한 것들 정리
-## 알고리즘 연습   
+## :books: 알고리즘 연습   
 * [알고리즘 문제풀기](https://github.com/ssd256/Algorithms_Practice)   
 
-## 학습 주제   
+## :bulb: 학습 주제   
 학습 주제는 [여기](https://github.com/gyoogle/tech-interview-for-developer)를 참고했습니다.   
 
 ## :pushpin: 개발 단어   
