@@ -1,4 +1,4 @@
-# TIL : 하루하루 공부한 것과 이해한 것들을 정리/기록   
+# TIL : 하루하루 공부한 것과 이해한 것들 정리
 ## 알고리즘 연습   
 * [알고리즘 문제풀기](https://github.com/ssd256/Algorithms_Practice)   
 
