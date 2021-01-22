@@ -6,7 +6,7 @@
 
 각 노드는 **데이터(자신) + 다음 노드에 대한 참조(주소값)**을 포함하는 노드로 구성
 
-![node](C:\Study(개념_과제)\0_개인공부\자료구조\Linked List\node.png)
+![node](https://github.com/ssd256/TIL/blob/main/DataStructure/images/node.png)
 
 ```java
 class Node {
@@ -35,7 +35,7 @@ Linked List 삽입/삭제 과정
 
 * 삽입
 
-![Linked List 삽입](C:\Study(개념_과제)\0_개인공부\자료구조\Linked List\Linked List 삽입.png) 
+![Linked List 삽입](https://github.com/ssd256/TIL/blob/main/DataStructure/images/Linked%20List%20%EC%82%BD%EC%9E%85.png) 
 
 ```
 node[3]은 node[Head]의 주소를 참조하지 않고 node[8]의 주소를 참조한다. 
@@ -46,7 +46,7 @@ node[8]이 2번째 node가 되어 node[Head]의 주소를 참조한다.
 
 * 삭제
 
-![Linked List 삭제](C:\Study(개념_과제)\0_개인공부\자료구조\Linked List\Linked List 삭제.png)
+![Linked List 삭제](https://github.com/ssd256/TIL/blob/main/DataStructure/images/Linked%20List%20%EC%82%AD%EC%A0%9C.png)
 
 ```
 node[3]은 node[6]의 주소를 참조하지 않고 node[Tail]의 주소를 참조한다.
