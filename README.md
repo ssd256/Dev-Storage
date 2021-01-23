@@ -21,7 +21,6 @@
 * final
 
 ## :pushpin: 자료구조   
-* Array
 * [LinkedList](https://github.com/ssd256/TIL/blob/main/DataStructure/LinkedList.md)
 * Array & ArrayList & LinkedList
 * 스택(Stack) & 큐(Queue)
