@@ -22,7 +22,7 @@
 
 ## :pushpin: 자료구조   
 * [LinkedList](https://github.com/ssd256/TIL/blob/main/DataStructure/LinkedList.md)
-* Array & ArrayList & LinkedList
+* [Array & ArrayList & LinkedList](https://github.com/ssd256/TIL/blob/main/DataStructure/Array%20vs%20ArrayList%20vs%20LinkedList.md)
 * 스택(Stack) & 큐(Queue)
 * 힙(Heap)
 * 이진탐색트리(Binary Search Tree)

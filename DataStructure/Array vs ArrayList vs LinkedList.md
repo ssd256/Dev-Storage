@@ -8,11 +8,11 @@
 
 
 
-![ArrayList 구조]()
+![ArrayList 구조](https://github.com/ssd256/TIL/blob/main/DataStructure/images/ArrayList%20%EA%B5%AC%EC%A1%B0.PNG)
 
-![LinkedList 구조3]()
+![LinkedList 구조3](https://github.com/ssd256/TIL/blob/main/DataStructure/images/LinkedList%20%EA%B5%AC%EC%A1%B03.PNG)
 
-
+<br>
 
 배열(Array)은 **선언 시 크기와 데이터 타입을 지정** 해야 한다. 
 
@@ -29,7 +29,7 @@ String[] str = new String[6];
 
 단, index를 기반으로 데이터가 저장되므로 특정 값을 찾을 때 빠르게 찾을 수 있다.
 
-
+<br>
 
 데이터의 **크기를 알 수 없거나 여러 데이터 타입을 넣고 싶을 때**는 **ArrayList**를 사용한다.
 
@@ -37,7 +37,7 @@ arrayList는 크기가 정해져 있지 않고 순서대로 저장되기 때문�
 
 하지만 중간에 값을 삽입/삭제하는 경우에는 array처럼 기존 데이터를 밀거나 당겨서 공간을 만들어야 하므로 시간이 오래걸리는 단점이 있다.
 
-
+<br>
 
 중간에 **데이터의 삽입/삭제**를 하고 싶다면 **LinkedList**를 사용한다.
 
@@ -49,7 +49,7 @@ arrayList는 크기가 정해져 있지 않고 순서대로 저장되기 때문�
 
 array이나 arrayList는 index 기반이라 순차적으로 저장되어 특정 값의 위치를 빠르게 검색할 수 있지만, LinkedList는 처음부터 검색해야 하므로 상대적으로 검색에 시간이 오래걸린다.
 
-
+<br>
 
 **결론**
 
