@@ -2,9 +2,9 @@
 
 세 자료구조를 한 줄로 정의하면,
 
-* Array : index 기반으로 빠르게 값을 찾을 수 있음
-* ArrayList : index 기반으로 데이터를 빠르게 찾을 수 있지만 삽입/삭제가 느림
-* LinkedList : 데이터의 삽입/삭제가 빠르지만 ArrayList에 비해 조회가 느림
+* **Array** : index 기반으로 빠르게 값을 찾을 수 있음
+* **ArrayList** : index 기반으로 데이터를 빠르게 찾을 수 있지만 삽입/삭제가 느림
+* **LinkedList** : 데이터의 삽입/삭제가 빠르지만 ArrayList에 비해 조회가 느림
 
 
 
