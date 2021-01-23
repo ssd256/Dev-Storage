@@ -27,9 +27,9 @@ class Node {
 > 접근시간이 길다 :  데이터가 많을수록 읽어오는 시간이 길다.  불연속적으로 데이터가 위치해서
 >
 > 중간값이나 특정값의 경우 처음부터 읽어오기 때문   
+
    
-   
-   
+
 Linked List 삽입/삭제 과정
 <br>
 * 삽입   
@@ -39,9 +39,9 @@ Linked List 삽입/삭제 과정
 ```
 node[3]은 node[Head]의 주소를 참조하지 않고 node[8]의 주소를 참조한다. 
 node[8]이 2번째 node가 되어 node[Head]의 주소를 참조한다.
-```   
-   
-   
+```
+
+
 <br>
 
 * 삭제   
@@ -54,3 +54,49 @@ node[6]은 node[Tail]의 주소를 참조하지 않아서, node[6]의 연결이 
 
 * Java에서는 GV가 있어서 연결이 끊겨 사용되지 않는 node[6]의 메모리를 다시 회수한다.
 ```
+
+<br>
+
+* 코드 구현
+
+```java
+class Node {
+	int data;
+	Node next = null;
+	
+	Node(int d) {
+		this.data = d;	// node 생성 시 매개변수 d를 data(node의 필드)에 넣음 
+	}
+	
+	void append(int d) {
+		Node end = new Node(d);
+		Node n = this; // head 부분
+		while(n.next != null) {
+			n = n.next;	// null을 만나면 while문 종료
+		}
+		n.next = end; // while문을 나온 n은 마지막이라, 
+        			 // 마지막 n의 다음값에 새로운 node인 end를 넣음[end가 마지막]
+	}
+	
+	void delete(int d) {
+		Node n = this;
+		while(n.next != null) {
+			if(n.next.data == d) {	// n의 다음값의 data가 매개변수로 만들어진 node라면
+				n.next = n.next.next; // n의 다음값에 null을 넣음 -> 연결이 해제되서 삭제
+			} else {
+				n = n.next;	// 아니면 n에 다음 node를 넣음
+			}
+		}
+	}
+	
+	void retrieve() {
+		Node n = this;
+		while(n.next != null) {
+			System.out.print(n.data + " -> ");
+			n = n.next; // n에 n 다음값을 계속 넣어줌
+		}
+		System.out.print(n.data); // 마지막은 다음값이 null이라 밖에서 출력
+	}
+}
+```
+
