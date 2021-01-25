@@ -1,4 +1,4 @@
-# TIL(Today I Learn)   
+# :gift: Development Storage : 개발 지식 창고
 
 ## :books: 알고리즘 연습   
 * [알고리즘 문제풀기](https://github.com/ssd256/Algorithms_Practice)   
