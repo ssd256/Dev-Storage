@@ -1,6 +1,6 @@
 ### Stack(스택)
 
-![Stack 구조]()
+![Stack 구조](https://github.com/ssd256/TIL/blob/main/DataStructure/images/Stack%20%EA%B5%AC%EC%A1%B0.PNG)
 
 입/출력이 **한 방향**으로 제한된 자료구조
 
@@ -12,19 +12,19 @@
 
 <br>
 
-메서드|설명
+메서드 | 설명
 
----|--
+------ | -----
 
-push()| 데이터 저장
+push() |  데이터 저장
 
-pop()| 맨 위의 데이터를 꺼내옴
+pop() |  맨 위의 데이터를 꺼내옴
 
-peek()|맨 위의 데이터 보여줌
+peek() | 맨 위의 데이터 보여줌
 
-isEmpty()|스택이 비었는지 확인
+isEmpty() | 스택이 비었는지 확인
 
-isFull()|스택이 꽉 찼는지 확인
+isFull() | 스택이 꽉 찼는지 확인
 
 +SP
 
@@ -102,7 +102,7 @@ private boolean isFull(int cnt) {
 
 ### Queue(큐)
 
-![Queue 구조]()
+![Queue 구조](https://github.com/ssd256/TIL/blob/main/DataStructure/images/Queue%20%EA%B5%AC%EC%A1%B0.PNG)
 
 **한 쪽은 입력, 한 쪽은 출력**으로 양 끝(front, rear)으로 제한
 
@@ -116,17 +116,17 @@ private boolean isFull(int cnt) {
 
 큐는 들어올 때는 **rear(끝)으로 들어오지만, 나갈 때는 front부터 빠짐** -> 처음과 끝으로 접근가능
 
-메서드|설명
+메서드 | 설명
 
----|--
+----- | -----
 
-enQueue()|큐에 데이터 넣음
+enQueue() | 큐에 데이터 넣음
 
-deQueue()|데이터 빼고 해당 데이터를 큐에서 삭제
+deQueue() | 데이터 빼고 해당 데이터를 큐에서 삭제
 
-isEmpty()|큐가 비어있는 지 확인
+isEmpty() | 큐가 비어있는 지 확인
 
-isFull()|큐가 꽉차있는 지 확인 
+isFull() | 큐가 꽉차있는 지 확인 
 
 front : deQueue 할 위치 기억
 
