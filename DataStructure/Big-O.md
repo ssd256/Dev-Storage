@@ -52,7 +52,8 @@ F(int[] n) {
 }
 ```
 
-![Big-O(On²) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2)%20%EA%B7%B8%EB%A6%BC.PNG)![Big-O(On²)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2).PNG)
+![Big-O(On²) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2)%20%EA%B7%B8%EB%A6%BC.PNG)
+![Big-O(On²)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2).PNG)
 
 입력 데이터의 크기(n)가 커질수록 O(n)보다 처리 시간이 수직에 가깝게 늘어난다
 
@@ -68,7 +69,8 @@ F(int[] i, int[] m) {
 }
 ```
 
-![Big-O(Onm) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm)%20%EA%B7%B8%EB%A6%BC.PNG)![Big-O(Onm)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm).PNG)
+![Big-O(Onm) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm)%20%EA%B7%B8%EB%A6%BC.PNG)
+![Big-O(Onm)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm).PNG)
 
 O(n²)과 비슷하지만, m이 n보다 작을 수도 있기 때문에 반드시 따로 표기해 줘야 한다
 
@@ -188,7 +190,6 @@ F(int[] n) {
 * 정렬 알고리즘과 자료구조의 Big-O 간단 비교 -> 참조용 
 
 ![sort Big-O](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/sort%20Big-O.PNG)
-
 ![DataStructure Big-O](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/DataStructure%20Big-O.PNG)
 
 <br>
