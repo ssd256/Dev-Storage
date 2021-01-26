@@ -138,7 +138,7 @@ k(찾으려는 값)과 중간값을 비교하기 때문에 순차 검색보다 �
 
 8. **O(Sqrt(n))**  / O(n^c) : 제곱근 시간(Square) -> O(n^c)에서 c는 반복문의 횟수
 
-![Big-O(Sqrt(n))](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Sqrt(n).PNG)
+![Big-O(Sqrt(n)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Sqrt(n).PNG)
 
 제곱근에서 맨 위의 한 줄을 돌리는 알고리즘. 소수인지 확인할 때 쓰는 방법으로 순차검색보다 빠르다
 
