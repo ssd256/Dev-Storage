@@ -7,6 +7,7 @@
 학습 주제는 [여기](https://github.com/gyoogle/tech-interview-for-developer)를 참고했습니다.   
 
 ## :pushpin: 개발 상식   
+* [Big-O 표기법](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Big-O.md)
 * 클린코드 & 리팩토링 & 시큐어코딩
 * 애자일(Agile) 정리
 * TDD(Test Driven Development)
