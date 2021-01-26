@@ -5,10 +5,11 @@
 * 알고리즘의 **시간과 공간 복잡도를 표현**
 * 알고리즘의 실제 running-time을 표시하는 것이 아니라, **데이터나 사용자의 증가율에 따라 알고리즘의 성능을 예측**하는 것이 목표!    
 -> 상수와 같은 **숫자**는 표현할 때 **모두 1로 표기**
-
+<br>
+---
 <br>
 
-1. **O(1)** : 상수 시간(constant time)
+**1. O(1) : 상수 시간(constant time)**
 
 ```python
 F(int[] n) {
@@ -26,7 +27,7 @@ F(int[] n) {
 
 <br>
 
-2. **O(n)** : 선형 시간(linear time)
+**2. O(n) : 선형 시간(linear time)**
 
 ```python
 F(int[] n) {
@@ -43,7 +44,7 @@ F(int[] n) {
 
  <br>
 
-3. **O(n²)** : 이차 시간(quadratic time)
+**3. O(n²) : 이차 시간(quadratic time)**
 
 ```python
 F(int[] n) {
@@ -59,7 +60,7 @@ F(int[] n) {
 
 <br>
 
-4. **O(nm)** : 이차 시간(quadratic time)
+**4. O(nm) : 이차 시간(quadratic time)**
 
 ```python
 F(int[] i, int[] m) {
@@ -77,7 +78,7 @@ O(n²)과 마찬가지로 입력 데이터의 크기(n)이 커질수록 처리 �
 
 <br>
 
-5. **O(n³)** : 다항 시간(polynomial / cubic time)
+**5. O(n³) : 다항 시간(polynomial / cubic time)**
 
 ```python
 F(int[] n) {
@@ -94,7 +95,7 @@ F(int[] n) {
 
 <br>
 
-6. **O(2ⁿ)** : 지수 시간(exponential time) -> O(mⁿ)으로 사용할 수도 있음
+**6. O(2ⁿ) : 지수 시간(exponential time)** -> O(mⁿ)으로 사용할 수도 있음
 
 ```python
 F(n, r) {
@@ -114,7 +115,7 @@ Fibonacci 수열을 재귀함수로 구현하면 2번씩 수를 호출하면서 
 
 <br>
 
-7. **O(log n)** : 로그 시간(logarithmic time) -> 대표적으로 [이진검색(binary search)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/binary%20search.PNG)
+**7. O(log n) : 로그 시간(logarithmic time)** -> 대표적으로 [이진검색(binary search)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/binary%20search.PNG)
 
 ```python
 F(k, arr, s, e) {
@@ -136,7 +137,7 @@ k(찾으려는 값)과 중간값을 비교하기 때문에 순차 검색보다 �
 
 <br>
 
-8. **O(Sqrt(n))**  / O(n^c) : 제곱근 시간(Square) -> O(n^c)에서 c는 반복문의 횟수
+**8. O(Sqrt(n))  / O(n^c) : 제곱근 시간(Square)** -> O(n^c)에서 c는 반복문의 횟수
 
 ![Big-O(Sqrt(n))](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Sqrt(n)).PNG)
 
