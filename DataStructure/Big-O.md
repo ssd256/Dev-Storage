@@ -15,7 +15,7 @@ F(int[] n) {
 }
 ```
 
-![Big-O(O1)]()
+![Big-O(O1)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(O1).PNG)
 
 입력한 데이터의 크기와 상관없이 언제나 일정한 시간이 걸리는 알고리즘
 
@@ -34,7 +34,7 @@ F(int[] n) {
 }
 ```
 
-![Big-O(On)]()
+![Big-O(On)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On).PNG)
 
 입력 데이터의 크기에 비례해서 처리 시간이 걸리는 알고리즘
 
@@ -52,9 +52,9 @@ F(int[] n) {
 }
 ```
 
-![Big-O(On²) 그림]()
+![Big-O(On²) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2)%20%EA%B7%B8%EB%A6%BC.PNG)
 
-![Big-O(On²)]()
+![Big-O(On²)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2).PNG)
 
 입력 데이터의 크기(n)가 커질수록 O(n)보다 처리 시간이 수직에 가깝게 늘어난다
 
@@ -70,9 +70,9 @@ F(int[] i, int[] m) {
 }
 ```
 
-![Big-O(Onm) 그림]()
+![Big-O(Onm) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm)%20%EA%B7%B8%EB%A6%BC.PNG)
 
-![Big-O(Onm)]()
+![Big-O(Onm)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm).PNG)
 
 O(n²)과 비슷하지만, m이 n보다 작을 수도 있기 때문에 반드시 따로 표기해 줘야 한다
 
@@ -91,9 +91,9 @@ F(int[] n) {
 }
 ```
 
-![Big-O(On³) 그림]()
+![Big-O(On³) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B3)%20%EA%B7%B8%EB%A6%BC.PNG)
 
-![Big-O(On³)]()
+![Big-O(On³)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B3).PNG)
 
 3개의 for문이 중첩되기 때문에 데이터의 크기(n)가 커질수록 On²보다 더 가파르게 처리 시간이 늘어난다
 
@@ -109,21 +109,19 @@ F(n, r) {
 }
 ```
 
-![Fibonacci]()
+[Fibonacci](https://github.com/ssd256/Dev-Storage/blob/main/%EA%B8%B0%EC%B4%88%EB%8B%A8%EC%96%B4/images/Fibonacci.PNG) 수열을 재귀함수로 구현하면, 이전 숫자(n-1)와 전전 숫자(n-2)를 알아내야 한다.
 
-Fibonacci 수열을 재귀함수로 구현하면, 이전 숫자(n-1)와 전전 숫자(n-2)를 알아내야 한다.
-
-![Fibonacci 재귀함수]()
+![Fibonacci 재귀함수](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Fibonacci%20%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98.PNG)
 
 Fibonacci 수열을 재귀함수로 구현하면 2번씩 수를 호출하면서 트리의 높이(k)만큼 반복
 
-![Big-O(2ⁿ)]()
+![Big-O(2ⁿ)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(2%E2%81%BF).PNG)
 
 그래프로 비교하면 On²이나 On³보다 데이터가 늘어날수록 처리 시간이 더 가파르게 상승함
 
 <br>
 
-* O(log n) : 로그 시간(logarithmic time) -> 대표적으로 [이진검색(binary search)]()
+* O(log n) : 로그 시간(logarithmic time) -> 대표적으로 [이진검색(binary search)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/binary%20search.PNG)
 
 ```python
 F(k, arr, s, e) {
@@ -137,7 +135,7 @@ F(k, arr, s, e) {
 
 처리가 진행될 때마가 검색해야 하는 데이터의 양이 절반씩 뚝뚝 떨어지는 알고리즘
 
-![Big-O(log n)]()
+![Big-O(log n)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(log%20n).PNG)
 
 k(찾으려는 값)과 중간값을 비교하기 때문에 순차 검색보다 처리속도가 빠르다
 
@@ -147,7 +145,7 @@ k(찾으려는 값)과 중간값을 비교하기 때문에 순차 검색보다 �
 
 * O(Sqrt(n))  / O(n^c) : 제곱근 시간(Square) -> O(n^c)에서 c는 반복문의 횟수
 
-![Big-O(Sqrt(n))]()
+![Big-O(Sqrt(n))](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Sqrt(n).PNG)
 
 제곱근에서 맨 위의 한 줄을 돌리는 알고리즘. 소수인지 확인할 때 쓰는 방법으로 순차검색보다 빠르다
 
@@ -193,8 +191,8 @@ F(int[] n) {
 
 * 정렬 알고리즘과 자료구조의 Big-O 간단 비교 -> 참조용 
 
-![sort Big-O]()
+![sort Big-O](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/sort%20Big-O.PNG)
 
-![DataStructure Big-O]()
+![DataStructure Big-O](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/DataStructure%20Big-O.PNG)
 
 <br>
