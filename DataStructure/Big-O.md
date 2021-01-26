@@ -182,7 +182,7 @@ F(int[] n) {
 위 예시도 1번과 같이 같은 for문을 2번 반복한다고 해서 O(n²+n²)으로 더해주지 않고 **O(n²)**으로 하나만 표기 => 2번 반복해도 **일정한 시간**만큼만 걸리기 때문에
 
 <br> 
-<br>
+
 ![sort Big-O](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/sort%20Big-O.PNG)
 ![DataStructure Big-O](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/DataStructure%20Big-O.PNG)
 
