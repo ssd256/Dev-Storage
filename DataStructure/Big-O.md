@@ -105,9 +105,7 @@ F(n, r) {
 
 [Fibonacci](https://github.com/ssd256/Dev-Storage/blob/main/%EA%B8%B0%EC%B4%88%EB%8B%A8%EC%96%B4/images/Fibonacci.PNG) 수열을 재귀함수로 구현하면, 이전 숫자(n-1)와 전전 숫자(n-2)를 알아내야 한다.
 
-![Fibonacci 재귀함수](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Fibonacci%20%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98.PNG)
-
-Fibonacci 수열을 재귀함수로 구현하면 2번씩 수를 호출하면서 트리의 높이(k)만큼 반복
+Fibonacci 수열을 재귀함수로 구현하면 2번씩 수를 호출하면서 [트리의 높이(k)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Fibonacci%20%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98.PNG)만큼 반복
 
 ![Big-O(2ⁿ)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(2%E2%81%BF).PNG)
 
