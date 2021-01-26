@@ -7,7 +7,7 @@
 
 <br>
 
-* O(1) : 상수 시간(constant time)
+* **O(1)** : 상수 시간(constant time)
 
 ```python
 F(int[] n) {
@@ -25,7 +25,7 @@ F(int[] n) {
 
 <br>
 
-* O(n) : 선형 시간(linear time)
+* **O(n)** : 선형 시간(linear time)
 
 ```python
 F(int[] n) {
@@ -42,7 +42,7 @@ F(int[] n) {
 
  <br>
 
-* O(n²) : 이차 시간(quadratic time)
+* **O(n²)** : 이차 시간(quadratic time)
 
 ```python
 F(int[] n) {
@@ -52,14 +52,13 @@ F(int[] n) {
 }
 ```
 
-![Big-O(On²) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2)%20%EA%B7%B8%EB%A6%BC.PNG)
-![Big-O(On²)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2).PNG)
+![Big-O(On²) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2)%20%EA%B7%B8%EB%A6%BC.PNG)![Big-O(On²)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B2).PNG)
 
 입력 데이터의 크기(n)가 커질수록 O(n)보다 처리 시간이 수직에 가깝게 늘어난다
 
 <br>
 
-* O(nm) : 이차 시간(quadratic time)
+* **O(nm)** : 이차 시간(quadratic time)
 
 ```python
 F(int[] i, int[] m) {
@@ -69,8 +68,7 @@ F(int[] i, int[] m) {
 }
 ```
 
-![Big-O(Onm) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm)%20%EA%B7%B8%EB%A6%BC.PNG)
-![Big-O(Onm)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm).PNG)
+![Big-O(Onm) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm)%20%EA%B7%B8%EB%A6%BC.PNG)![Big-O(Onm)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Onm).PNG)
 
 O(n²)과 비슷하지만, m이 n보다 작을 수도 있기 때문에 반드시 따로 표기해 줘야 한다
 
@@ -78,7 +76,7 @@ O(n²)과 마찬가지로 입력 데이터의 크기(n)이 커질수록 처리 �
 
 <br>
 
-* O(n³) : 다항 시간(polynomial / cubic time)
+* **O(n³)** : 다항 시간(polynomial / cubic time)
 
 ```python
 F(int[] n) {
@@ -89,15 +87,13 @@ F(int[] n) {
 }
 ```
 
-![Big-O(On³) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B3)%20%EA%B7%B8%EB%A6%BC.PNG)
-
-![Big-O(On³)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B3).PNG)
+![Big-O(On³) 그림](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B3)%20%EA%B7%B8%EB%A6%BC.PNG)![Big-O(On³)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(On%C2%B3).PNG)
 
 3개의 for문이 중첩되기 때문에 데이터의 크기(n)가 커질수록 On²보다 더 가파르게 처리 시간이 늘어난다
 
 <br>
 
-* O(2ⁿ) : 지수 시간(exponential time) -> O(mⁿ)으로 사용할 수도 있음
+* **O(2ⁿ)** : 지수 시간(exponential time) -> O(mⁿ)으로 사용할 수도 있음
 
 ```python
 F(n, r) {
@@ -119,7 +115,7 @@ Fibonacci 수열을 재귀함수로 구현하면 2번씩 수를 호출하면서 
 
 <br>
 
-* O(log n) : 로그 시간(logarithmic time) -> 대표적으로 [이진검색(binary search)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/binary%20search.PNG)
+* **O(log n)** : 로그 시간(logarithmic time) -> 대표적으로 [이진검색(binary search)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/binary%20search.PNG)
 
 ```python
 F(k, arr, s, e) {
@@ -141,7 +137,7 @@ k(찾으려는 값)과 중간값을 비교하기 때문에 순차 검색보다 �
 
 <br>
 
-* O(Sqrt(n))  / O(n^c) : 제곱근 시간(Square) -> O(n^c)에서 c는 반복문의 횟수
+* **O(Sqrt(n))**  / O(n^c) : 제곱근 시간(Square) -> O(n^c)에서 c는 반복문의 횟수
 
 ![Big-O(Sqrt(n))](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/images/Big-O(Sqrt(n).PNG)
 
