@@ -25,7 +25,7 @@
 * [LinkedList](https://github.com/ssd256/TIL/blob/main/DataStructure/LinkedList.md)
 * [Array & ArrayList & LinkedList](https://github.com/ssd256/TIL/blob/main/DataStructure/Array%20vs%20ArrayList%20vs%20LinkedList.md)
 * [스택(Stack) & 큐(Queue)](https://github.com/ssd256/TIL/blob/main/DataStructure/Stack%20%26%20Queue.md)
-* 힙(Heap)
+* [힙(Heap)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Heap.md)
 * 이진탐색트리(Binary Search Tree)
 * 해시(Hash)
 * 트라이(Trie)
