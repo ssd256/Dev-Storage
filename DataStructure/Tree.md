@@ -12,7 +12,7 @@
 
 1. ***Binary Tree(이진트리)** : 자식 노드가 최대 2개까지만 붙는 트리
 
-   1-1. **[Binary Search Tree]()(이진탐색트리/이진검색트리)** :sparkles:
+   1-1. **[Binary Search Tree](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Binary%20Search%20Tree.md)(이진탐색트리/이진검색트리)** :sparkles:
 
    : 기본적인 구조는 이진트리와 같지만 왼쪽 노드의 데이터들은 현재 노드보다 작아야 하고, 오른쪽 노드의 데이터들은 현재노드 보다 커야 함
 
