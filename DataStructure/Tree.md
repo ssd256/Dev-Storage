@@ -10,7 +10,7 @@
 
 **종류**
 
-1. ***Binary Tree(이진트리)** : 자식 노드가 최대 2개까지만 붙는 트리
+1. **Binary Tree(이진트리)** : 자식 노드가 최대 2개까지만 붙는 트리
 
    1-1. **[Binary Search Tree](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Binary%20Search%20Tree.md)(이진탐색트리/이진검색트리)** :sparkles:
 
