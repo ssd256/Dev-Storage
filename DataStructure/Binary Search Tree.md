@@ -1,4 +1,4 @@
-#### Binary Search [Tree](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Tree.md)(이진탐색트리)
+### Binary Search [Tree](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Tree.md)(이진탐색트리)
 
 > 이진탐색(binary search) + 연결리스트(linked list)를 결합한 자료구조
 
