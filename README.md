@@ -59,7 +59,7 @@
 * 파일 시스템
 
 ## :pushpin: 데이터베이스   
-* 키(Key) 정리
+* [키(Key) 정리](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DKey.md)
 * SQL - JOIN
 * SQL Injection
 * SQL vs NoSQL
