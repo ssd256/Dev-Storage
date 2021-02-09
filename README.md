@@ -60,7 +60,7 @@
 
 ## :pushpin: 데이터베이스   
 * [키(Key) 정리](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DKey.md)
-* SQL - JOIN
+* [SQL - JOIN](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DJOIN.md)
 * SQL Injection
 * SQL vs NoSQL
 * 이상(Anomaly)
