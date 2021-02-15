@@ -63,7 +63,7 @@
 * [SQL - JOIN](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DJOIN.md)
 * SQL Injection
 * SQL vs NoSQL
-* 이상(Anomaly)
+* [이상(Anomaly)](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DAnomaly.md)
 * 인덱스(INDEX)
 * 트랜잭션(Transaction)
 * 트랜잭션 격리 수준(Transaction Isolation Level)
