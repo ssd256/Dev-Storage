@@ -30,6 +30,7 @@
 * [해시(Hash)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/HashTable.md)
 * [트라이(Trie)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Trie.md)
 * B-Tree & B+Tree
+* Graph(DFS, BFS)
 
 ## :pushpin: 네트워크   
 * OSI 7 계층
