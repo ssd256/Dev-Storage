@@ -6,20 +6,23 @@
 ## :bulb: 학습 주제   
 학습 주제는 [여기](https://github.com/gyoogle/tech-interview-for-developer)를 참고했습니다.   
 
-## :pushpin: 개발 상식   
-* [Big-O 표기법](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Big-O.md)
-* 클린코드 & 리팩토링 & 시큐어코딩
-* 애자일(Agile) 정리
-* TDD(Test Driven Development)
-* 객체 지향 프로그래밍
-* 함수형 프로그래밍Ⅰ
-* 함수형 프로그래밍Ⅱ
-* 데브옵스(DevOps)
-* 서드 파티(3rd party)란?
-* Git 과 GitHub 에 대해서
-* 정규식
-* Generic
-* final
+## :pushpin: Algorithm   
+
+* 거품 정렬(Bubble Sort)
+* 선택 정렬(Selection Sort)
+* 삽입 정렬(Insertion Sort)
+* 퀵 정렬(Quick Sort)
+* 합병 정렬(Merge Sort)
+* 힙 정렬(Heap Sort)
+* 기수 정렬(Radix Sort)
+* 계수 정렬(Count Sort)
+* 이분 탐색(Binary Search)
+* 해시 테이블 구현
+* DFS & BFS
+* 최장 증가 수열(LIS)
+* 최소 공통 조상(LCA)
+* 동적 계획법(Dynamic Programming)
+* 비트마스크(BitMask)
 
 ## :pushpin: 자료구조   
 * [LinkedList](https://github.com/ssd256/TIL/blob/main/DataStructure/LinkedList.md)
@@ -31,6 +34,18 @@
 * [트라이(Trie)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Trie.md)
 * B-Tree & B+Tree
 * Graph(DFS, BFS)
+
+## :pushpin: 데이터베이스   
+
+* [키(Key) 정리](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DKey.md)
+* [SQL - JOIN](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DJOIN.md)
+* SQL Injection
+* SQL vs NoSQL
+* [이상(Anomaly)](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DAnomaly.md)
+* 인덱스(INDEX)
+* 트랜잭션(Transaction)
+* 트랜잭션 격리 수준(Transaction Isolation Level)
+* 레디스(Redis)
 
 ## :pushpin: 네트워크   
 * OSI 7 계층
@@ -59,16 +74,21 @@
 * 메모리(Memory)
 * 파일 시스템
 
-## :pushpin: 데이터베이스   
-* [키(Key) 정리](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DKey.md)
-* [SQL - JOIN](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DJOIN.md)
-* SQL Injection
-* SQL vs NoSQL
-* [이상(Anomaly)](https://github.com/ssd256/Dev-Storage/blob/main/Database/%5BDB%5DAnomaly.md)
-* 인덱스(INDEX)
-* 트랜잭션(Transaction)
-* 트랜잭션 격리 수준(Transaction Isolation Level)
-* 레디스(Redis)
+## :pushpin: 개발 상식   
+
+* [Big-O 표기법](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Big-O.md)
+* 클린코드 & 리팩토링 & 시큐어코딩
+* 애자일(Agile) 정리
+* TDD(Test Driven Development)
+* 객체 지향 프로그래밍
+* 함수형 프로그래밍Ⅰ
+* 함수형 프로그래밍Ⅱ
+* 데브옵스(DevOps)
+* 서드 파티(3rd party)란?
+* Git 과 GitHub 에 대해서
+* 정규식
+* Generic
+* final
 
 ## :pushpin: Design Pattern   
 * 디자인패턴 개요(Overview)
@@ -78,23 +98,6 @@
 * 팩토리 메소드 패턴
 * 옵저버 패턴
 * 스트레티지 패턴
-
-## :pushpin: Algorithm   
-* 거품 정렬(Bubble Sort)
-* 선택 정렬(Selection Sort)
-* 삽입 정렬(Insertion Sort)
-* 퀵 정렬(Quick Sort)
-* 합병 정렬(Merge Sort)
-* 힙 정렬(Heap Sort)
-* 기수 정렬(Radix Sort)
-* 계수 정렬(Count Sort)
-* 이분 탐색(Binary Search)
-* 해시 테이블 구현
-* DFS & BFS
-* 최장 증가 수열(LIS)
-* 최소 공통 조상(LCA)
-* 동적 계획법(Dynamic Programming)
-* 비트마스크(BitMask)
 
 ## :pushpin: Language   
 * Java
