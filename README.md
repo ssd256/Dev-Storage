@@ -28,7 +28,7 @@
 * [힙(Heap)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Heap.md)
 * [이진탐색트리(Binary Search Tree)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Binary%20Search%20Tree.md)
 * [해시(Hash)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/HashTable.md)
-* 트라이(Trie)
+* [트라이(Trie)](https://github.com/ssd256/Dev-Storage/blob/main/DataStructure/Trie.md)
 * B-Tree & B+Tree
 
 ## :pushpin: 네트워크   
